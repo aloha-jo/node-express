@@ -1,5 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
+
+/* ROUTES */
 const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
